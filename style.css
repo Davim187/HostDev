@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+     /******************************************Header******************************************/
+.logo{
+    background-color: #1b254d;
+    color: white;
+    width: 100%;
+    height: 641px;
+    text-align: center;
+    padding: 18px 0 18px 0 ;
+    font-family: 'Reem Kufi Fun', sans-serif;z
+}
+.banner{
+    background: linear-gradient(
+        #1b254d8c,#1b254d8c
+      ), url(imagens/banner-data-center-1500x500.jpg)no-repeat fixed;
+    max-width: 100%;
+    max-height: 360px;
+    position: relative;
+    bottom: 130px;
+    color: white;
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+.h{
+    padding: 60px;
+    position: relative;
+    bottom: 75px;
+    right: 20px;
+}
+.p{
+    padding: 40px;
+    position: relative;
+    top: 30px;
+}
+.h1{
+    padding: 60px;
+    position: relative;
+    bottom: 39px;
+}
+.h3{
+    padding: 60px;
+    position: relative;
+    bottom: 140px;
+}
+ /*****************************************Encontre seus Dominios*****************************************/
+ .Dominios h2 {
+	font-size: 1.5em;
+	color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+    
+}
+
+.Dominios div {
+	margin-top: 2%;
+}
+.Dominios1{
+    position: relative;
+    bottom: 215px;
+    left: 27%;
+    border-radius: 20px;
+    height: 60px;
+    width: 40%;
+}
+.Dominios input {
+    bottom: 11px;
+    position: relative;
+    background-color: transparent;
+    width: 61%;
+    color: rgb(255, 255, 255);
+    padding: 20px 2px 20px 18px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid transparent;
+    border: 2px solid rgba(57, 93, 252, 0.3);
+}
+.Botao {
+    border: 2px solid rgb(255, 255, 255);
+    left: 1%;
+    bottom: 19%;
+    position: relative;
+    width: 36%;
+    height: 60px;
+    color: #000000;
+    padding: 10px 20px 10px 5px ;
+    cursor: pointer;
+    margin-top: 2%;
+    border-radius: 0 20px 20px 0;
+    font-size: 12px;
+
+}
+ 
+/******************************************    Cards    ******************************************/
+.h4{
+    text-align: center;
+    padding: 60px;
+    position: relative;
+    bottom: 70px;
+}
+.card1 h4{
+    position: relative;
+    left: 37px;
+}
+.card1 h2{
+    position: relative;
+    left: 25px;
+}
+.planos article{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.planos .card1{
+    flex-direction: row;
+    margin: 15px;
+    max-width: 250px;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 30px 30px 30px 30px;
+    border-radius:  10px 10px 20px 20px ;
+    text-align: center;
+    box-shadow: 10px 15px 10px #1b254d8c;
+    background-color: #1b254d;
+    color: aliceblue;
+
+    
+}
+.planos .fotos1{
+    width: 132%;
+    height: 120%;
+    position: relative;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+/******************************************* Conteudos *******************************************/
+.Conteudos h2{
+    text-align: center;
+    padding: 180px 0 0 0px;
+    position: relative;
+    bottom: 120px;
+    left: 34%;
+}
+.Conteudos h3{
+    text-align: left;
+    position: relative;
+    bottom: 260px;
+    left: 15%;
+    font-size: 30px;
+}
+.Conteudos h4       {
+    text-align: left;
+    position: relative;
+    bottom: 260px;
+    left: 15%;
+    font-size: 14px;
+}
+.Conteudos{
+    position: relative;
+    top: 97px;
+    max-width: 60%;
+}
+.Conteudos p{
+    padding: 0 100px 20px 40px;
+    position: relative;
+    bottom: 200px;
+}
+.imgli{
+    max-width: 117%;
+    position: relative;
+    left: 100%;
+}
+
+      /*******************************************Rodape*******************************************/
+    .midia{
+        background-color: #1b254d;
+        height: 100px;
+        color: #000000;
+    }
+    .icon{
+        text-align: center;
+        
+    }
+    .icon1{
+        height: 50px;
+    }
